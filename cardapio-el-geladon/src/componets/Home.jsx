@@ -1,8 +1,10 @@
+import PaletaLista from "./PaletaLista";
+
 import "./Home.css"
 
 function Home() {
   return <div className="Home">
-    <div> classname="Home__container"
+    <div ClassName="Home__container">
       <PaletaLista />
     </div>
   </div>;
