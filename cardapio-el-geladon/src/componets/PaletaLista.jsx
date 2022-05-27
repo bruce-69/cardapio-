@@ -10,7 +10,7 @@ function PaletaLista() {
         <div className="PaletaListaItem__acoes Acoes">
           <button className="Acoes__adicionar Acoes__asdicionar--preencher">adicionar</button>
         </div>
-        <img className "PaletaListaItem__foto" src={require("../assets/imagems/doce-de-leite-com-doce-de-leite.png").default} alt="paleta de doce de leite " />
+        <img className "PaletaListaItem__foto" src={require("../assets/imagems/doce-de-leite-com-doce-de-leite.png").default} alt="Paleta de doce de leite " />
       </div>
     </div>
   );
