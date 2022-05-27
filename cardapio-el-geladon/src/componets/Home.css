@@ -17,7 +17,6 @@
   align-items: center;
   justify-content: center;
 }
-
 @media (max-width: 350px) {
   .Home__container {
     justify-content: unset;
