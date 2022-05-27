@@ -180,4 +180,4 @@ export const paletas = [
       sabor: "Uva",
       possuiRecheio: false,
     },
-  ];  
+  ];  te
