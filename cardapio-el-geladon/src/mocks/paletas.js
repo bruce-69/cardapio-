@@ -1,3 +1,4 @@
+import "PaletaLista.css";
 export const paletas = [
     {
       titulo: "Açaí com Leite Condensado",
@@ -181,3 +182,4 @@ export const paletas = [
       possuiRecheio: false,
     },
   ];
+  
