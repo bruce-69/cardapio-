@@ -1,3 +1,4 @@
+import { paletas } from "../mocks/paletas.js";
 import "./PaletaLista.css";
 export default PaletaLista;
 
