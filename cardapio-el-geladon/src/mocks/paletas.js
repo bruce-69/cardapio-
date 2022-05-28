@@ -1,4 +1,4 @@
-import "PaletaLista.css";
+import "PaletaLista.css";s
 export const paletas = [
     {
       titulo: "Açaí com Leite Condensado",

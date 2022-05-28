@@ -1,5 +1,6 @@
 import "./PaletaLista.css";
 export default PaletaLista;
+
 function PaletaLista() {
   return <div className PaletaListaItem>
              <div className="PaletaListaItem">
@@ -16,4 +17,4 @@ function PaletaLista() {
   </div>;
 }
 
-
+  
