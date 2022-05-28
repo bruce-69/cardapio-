@@ -5,6 +5,7 @@ export default PaletaLista;
 function PaletaLista() {
   return (
     <div className="PaletaLista">
+        {paletas.map((paleta, index) => (
       <div className="PaletaListaItem">
         <div>
           <div className="PaletaListaItem__titulo">
@@ -27,7 +28,7 @@ function PaletaLista() {
           src={require("../assets/images/doce-de-leite-com-doce-de-leite.png")}alt="Paleta de Doce de Leite"
         />
       </div>
+        ))}
     </div>
   );
 }
-
