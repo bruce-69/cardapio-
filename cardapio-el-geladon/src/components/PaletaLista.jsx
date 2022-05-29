@@ -3,9 +3,15 @@ import { paletas } from "../mocks/paletas.js";
 import "./PaletaLista.css";
 export default PaletaLista;
 
-
-
 function PaletaLista() {
+  const [paletaSelecionada, setPaletaSelecionada] = useState({});
+
+  const adicionarItem = (paletaIndex) => {
+    const paleta = {
+      [paletaIndex]: Number(paletaSelecionada[paletaIndex] || 0) + 1,
+    };
+    setPaletaSelecionada({ ...paletaSelecionada, ...paleta });
+  };
   return (
     <div className="PaletaLista">
       {paletas.map((paleta, index) => (
@@ -21,9 +27,7 @@ function PaletaLista() {
               {paleta.descricao}{" "}
             </div>
             <div className="PaletaListaItem__acoes Acoes">
-              <button className="Acoes__adicionar Acoes__adicionar--preencher">
-                adicionar
-              </button>
+            <button className="Acoes__adicionar Acoes__adicionar--preencher" onClick={() => adicionarItem(index)}>adicionar</button>
             </div>
           </div>
           <img
