@@ -24,7 +24,7 @@ function PaletaLista() {
     <div className="PaletaLista">
       {paletas.map((paleta, index) => (
         <div className="PaletaListaItem" key={`PaletaListaItem-${index}`}>
-         {badgeCounter(paletaSelecionada[index], index)}
+          {badgeCounter(paletaSelecionada[index], index)}
           <div>
             <div className="PaletaListaItem__titulo"> {paleta.titulo} </div>
             <div className="PaletaListaItem__preco">
