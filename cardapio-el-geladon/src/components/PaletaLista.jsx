@@ -6,6 +6,14 @@ export default PaletaLista;
 function PaletaLista() {
   const [paletaSelecionada, setPaletaSelecionada] = useState({});
 
+  const badgeCounter = (canRender, index) =>
+    Boolean(canRender) && (
+      <span className="PaletaListaItem__badge">
+        {" "}
+        {paletaSelecionada[index]}{" "}
+      </span>
+    );
+
   const adicionarItem = (paletaIndex) => {
     const paleta = {
       [paletaIndex]: Number(paletaSelecionada[paletaIndex] || 0) + 1,
