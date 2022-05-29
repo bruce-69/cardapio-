@@ -1,6 +1,9 @@
+import { useState } from "react";
 import { paletas } from "../mocks/paletas.js";
 import "./PaletaLista.css";
 export default PaletaLista;
+
+
 
 function PaletaLista() {
   return (
